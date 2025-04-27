@@ -6,7 +6,14 @@ const nextConfig = {
   },
   output: 'standalone',
   reactStrictMode: true,
-  swcMinify: true
+  swcMinify: true,
+  poweredByHeader: false,
+  compress: true,
+  generateEtags: true,
+  experimental: {
+    optimizeCss: true,
+    optimizePackageImports: ['framer-motion']
+  }
 };
 
 module.exports = nextConfig; 
