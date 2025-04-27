@@ -10,9 +10,9 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
   generateEtags: true,
+  optimizeFonts: true,
   experimental: {
-    optimizeCss: true,
-    optimizePackageImports: ['framer-motion']
+    optimizeCss: false
   }
 };
 
