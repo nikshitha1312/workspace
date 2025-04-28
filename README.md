@@ -2,6 +2,8 @@
 
 This is a modern React application built with Next.js, TypeScript, and Tailwind CSS. It features a responsive three-pane layout with interactive components and smooth animations.
 
+DEPLOY LINK:https://workspace-m96u8v7oe-nikshithas-projects-c5e38bef.vercel.app/
+
 ## Features
 
 - Responsive three-pane layout with animated transitions
